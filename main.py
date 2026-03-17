@@ -258,8 +258,7 @@ def import_user():
 def export_users(users):
 
     with open("users.pkl", "wb") as file:
-        for user in users:
-            pickle.dump(user, file)
+        pickle.dump(user, file)
 
 # def export_users(users):
 #     text = ""
@@ -275,8 +274,7 @@ def export_users(users):
 def export_bibls(bibls):
 
     with open("bibls.pkl", "wb") as file:
-        for bibl in bibls:
-            pickle.dump(bibl, file)
+        pickle.dump(bibl, file)
 
 
 # def export_bibls(bibls):
@@ -292,8 +290,7 @@ def export_bibls(bibls):
 def export_books(books):
 
     with open("book.pkl", "wb") as file:
-        for book in books:
-            pickle.dump(book, file)
+        pickle.dump(book, file)
 
 
 # def export_books(books):
